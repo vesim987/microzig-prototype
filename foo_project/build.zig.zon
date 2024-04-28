@@ -1,0 +1,20 @@
+.{
+    .name = "foo_project",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .microzig = .{
+            .path = "../microzig",
+        },
+        .@"microzig.bsp.rp2040" = .{
+            .path = "../rp2040",
+        },
+        .@"microzig.bsp.stm32" = .{
+            .path = "../stm32",
+        },
+    },
+
+    .paths = .{
+        "",
+    },
+}
